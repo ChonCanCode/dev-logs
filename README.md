@@ -9,6 +9,16 @@ A daily journal entries for my coding journey.
 - Learned a new term boilerplate code (a piece of code I can use over and over again)
 
 **2024.07.02**
-- Time spend on coding today: 84mins
+- Time spent: 84mins
 - HTML basic structure completed, ready to move on to CSS
 - Learned: Common Semantic HTML Tags, Word Tags, Elements (<input/>, <a>, <span>)
+
+**2024.07.03**
+- Time spent: 40mins
+- Started coding on CSS, learned that I can use website inspection(Q), to highlight each session on the website to show spacing.
+
+**2024.07.04**
+- Time spent: 126mins
+- Project-01-google-search: responsive web completed
+- Learned how to air my website for free on Netlify!
+
