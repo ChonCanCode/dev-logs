@@ -25,3 +25,21 @@ A daily journal entries for my coding journey.
 **2024.07.05**
 - Time spent: 40 mins
 - Study more on CSS - Flexbox syntax and functionality
+
+**2024.07.08**
+- Time spent: 120mins
+- Started project-02-website-portfolio
+- HTML basic structure completed
+
+**2024.07.09**
+- Time spent: 40mins
+- Started working on CSS
+
+**2024.07.10**
+- Time spent: 120mins
+- Learned to use information from GitHub profile for personal info
+
+**2024.07.11**
+- Time spent: 50mins
+- Putting anchor tags on icons and projects for direction to the relevant page.
+- Putting Webiste live
