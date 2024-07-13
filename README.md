@@ -43,3 +43,8 @@ A daily journal entries for my coding journey.
 - Time spent: 50mins
 - Putting anchor tags on icons and projects for direction to the relevant page.
 - Putting Webiste live
+
+**2024.07.13**
+- Time spent: 120mins
+- Picking up new project, learning Tailwindcss
+- Installing tailwindcss via terminal, COOL!
