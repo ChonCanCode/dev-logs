@@ -48,3 +48,9 @@ A daily journal entries for my coding journey.
 - Time spent: 120mins
 - Picking up new project, learning Tailwindcss
 - Installing tailwindcss via terminal, COOL!
+
+**2024.07.14**
+- Time spent: 120mins
+- Fixed some issue with loading up the content
+- Learned how to open up the config page & adding extra style on it.
+- Leanred the basic of using class system to style the page. Skipping coding for CSS. 
