@@ -58,4 +58,13 @@ A daily journal entries for my coding journey.
 **2024.07.15**
 - Time spent: 45mins
 - Learned `Responsive Classes` 
-- learned how to adjust photo size with `h-, sm:h `
+- Learned how to adjust photo size with `h-, sm:h `
+- Learned how to add badge on top of the photos
+
+**2024.07.16**
+- Time spent: 30mins
+- Leanred how to use custome selector with `@apply directory` to simplify reusable styles.
+
+**2024.07.17**
+- Time spent: 120mins
+- Finished project-03-tailwindcss-starter
