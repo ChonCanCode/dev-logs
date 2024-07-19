@@ -68,3 +68,7 @@ A daily journal entries for my coding journey.
 **2024.07.17**
 - Time spent: 120mins
 - Finished project-03-tailwindcss-starter
+
+**2024.07.19**
+- Time spent: 90mins
+- Begin, project-04-reactjs-starter
