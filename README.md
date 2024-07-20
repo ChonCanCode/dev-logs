@@ -72,3 +72,9 @@ A daily journal entries for my coding journey.
 **2024.07.19**
 - Time spent: 90mins
 - Begin, project-04-reactjs-starter
+
+**2024.07.20**
+- Time spent: 120 mins
+- Contunie working on reactjs project
+- Learned exporting and importing files within the project. 
+- Leanred how HTML & JS can work side by side in one single code block in JSX file. 
