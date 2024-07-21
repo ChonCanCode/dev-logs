@@ -78,3 +78,7 @@ A daily journal entries for my coding journey.
 - Contunie working on reactjs project
 - Learned exporting and importing files within the project. 
 - Leanred how HTML & JS can work side by side in one single code block in JSX file. 
+
+**2024.07.20**
+- Time spent: 120 mins
+- Struggle to get me head around understanding logic of taking the input and adding a new element on to the website step by step. 
