@@ -79,6 +79,12 @@ A daily journal entries for my coding journey.
 - Learned exporting and importing files within the project. 
 - Leanred how HTML & JS can work side by side in one single code block in JSX file. 
 
-**2024.07.20**
+**2024.07.21**
 - Time spent: 120 mins
 - Struggle to get me head around understanding logic of taking the input and adding a new element on to the website step by step. 
+
+
+**2024.07.22**
+- Have a better idea of how the add session works, will try to put it in writing later.
+- Working on Delete button today.
+- Reading the code over and over trying to understand how the delete mechanchic work.
