@@ -1,6 +1,6 @@
 # dev-logs
  
-A daily journal entries for my coding journey.
+A journal entry for my coding journey.
 
 **2024.07.01**
 
