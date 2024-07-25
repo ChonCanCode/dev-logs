@@ -85,6 +85,11 @@ A daily journal entries for my coding journey.
 
 
 **2024.07.22**
+- Time spent: 65mins
 - Have a better idea of how the add session works, will try to put it in writing later.
 - Working on Delete button today.
 - Reading the code over and over trying to understand how the delete mechanchic work.
+
+
+**2024.07.23**
+- 
