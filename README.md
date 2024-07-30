@@ -87,4 +87,20 @@ A journal entry for my coding journey.
 - Time spent: 60 mins
 - Completed, project-04-reactjs-starterProject completed
 - Struggle to understand how each step work from beginning to end
-- Need to look for a more basic project to learn JS from
+- Need to look for a more basic project to learn JS
+
+**2024.07.27**
+- Time spent: 30 mins
+- Objects and Object Constructors
+
+**2024.07.28**
+- Time spent: 30 mins
+- Continue Objects and Object Constructors
+
+**2024.07.29**
+- Time spent: 30 mins
+- Continue Objects and Object Constructors
+
+**2024.07.30**
+- Time spent: 120 mins
+- Continue Objects and Object Constructors
