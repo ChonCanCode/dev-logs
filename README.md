@@ -95,12 +95,21 @@ A journal entry for my coding journey.
 
 **2024.07.28**
 - Time spent: 30 mins
-- Continue Objects and Object Constructors
+- Continue - Objects and Object Constructors
 
 **2024.07.29**
 - Time spent: 30 mins
-- Continue Objects and Object Constructors
+- Continue - Objects and Object Constructors
 
 **2024.07.30**
 - Time spent: 120 mins
-- Continue Objects and Object Constructors
+- Continue - Objects and Object Constructors
+
+**2024.08.02**
+- Time spent: 120 mins
+- Completed - Objects and Object Constructors
+- Create a reusable guide for building up 
+
+**2024.08.06**
+- Time spent: 120 mins
+- Building up a go to page for both HTML & CSS
