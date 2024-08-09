@@ -113,3 +113,7 @@ A journal entry for my coding journey.
 **2024.08.06**
 - Time spent: 120 mins
 - Building up a go to page for both HTML & CSS
+
+**2024.08.09**
+- Time spent: 240 mins
+- HTML & CSS build guide completed, will look a page to build without following online guide. Only with self-guide approach to ensure I can build a page by myself. 
