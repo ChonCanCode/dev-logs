@@ -117,3 +117,12 @@ A journal entry for my coding journey.
 **2024.08.09**
 - Time spent: 240 mins
 - HTML & CSS build guide completed, will look a page to build without following online guide. Only with self-guide approach to ensure I can build a page by myself. 
+
+**2024.08.10**
+- Time spent: 45 mins
+- Finding new project to build, learn how to build from inspecting existing website. 
+
+**2024.08.11**
+- Time spent: 120 mins
+- Begin, project-05-website-youtube
+
