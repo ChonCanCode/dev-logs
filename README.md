@@ -126,3 +126,6 @@ A journal entry for my coding journey.
 - Time spent: 120 mins
 - Begin, project-05-website-youtube
 
+**2024.08.12**
+- Time spent: 60 mins
+- Continue, project-05-website-youtube
