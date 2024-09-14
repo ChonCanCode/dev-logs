@@ -133,3 +133,43 @@ A journal entry for my coding journey.
 **2024.08.30**
 - Time spent: 190 mins
 - Continue, project-05-website-youtube
+
+
+**2024.09.12**
+- Completed, project-05-website-youtube
+- Got a better understanding of how to build the entire page from scratch, better usage of border, flex box and layout. Moving forward need to understand how to make website interactive from scratch.
+
+**2024.09.14**
+- Begin, beginner-js-project-01-colours.
+- Started a very simple tutorial of using JS in website.
+- JS "`document.`" it refers to the *Document Object Model (DOM)*, which represents the structure of an HTML or XML document. The `document` object is hte entry point that enables you to interact with and manipulate the content, structure, and style of the HTML document via JS. 
+- JS `getElementsByTagName()` is a DOM Method. It is a HTML element retrieval method, as it used to find and retrieve all HTML elements that matach a specific tag name(e.g., <div>, <p>,<span> etc).
+- In JS a method is simply a funcion that is associated with an object (in this case the `document` object).
+- DOM (Document Object Model) - a programming interface (or structure) that represents the HTML or XML document loaded in a web browswer. It allows programs like JS to interact with, manipulate and update the content.
+- DOM - Real-Time Representation, when open a webpage, the browswer parses the HTML and builds the DOM. JS can then access and manipulate this DOM to modify the content without reloading the page.
+- DOM - Tree-like structure. The root of the tree is the <html> element. Other nodes represents the head, body, divs p and img and so on.
+- DOM - Nodes. Everything in the DOM is treated as node. Like Element nodes <div>, <p>, <h1>. Attribute nodes, id, class, src. Text nodes, the actual text content inside the element.
+
+The DOM representation 
+Document
+ └── <html>
+      ├── <head>
+      │    └── <title>
+      └── <body>
+           ├── <h1>
+           └── <p>
+
+- `index > colours.length-1` the `.length-1` prevent the index goes beyond 5 if it happens purple will appear twice as it has to perfrom the loop again to reset it to red which is 0. A loop base. If the number is 4 the purple will only appear once.
+
+```
+function changeColours() {
+    let colours = ["red", "blue","orange","yellow","green","purple"];
+    
+    document.getElementsByTagName("body")[0].
+    style.background = colours[index++];
+
+    if(index > colours.length-1)
+        index = 0;
+}
+
+```
