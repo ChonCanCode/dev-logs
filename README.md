@@ -198,3 +198,33 @@ function changeColours() {
 
 ```
 
+**2024.09.18**
+- Completed, beginner-js-project-02-Hex-Colours. 
+- CSS `animation` property, it conisits of several shorthand properties within the code. It apply elements with animation.
+    -  `colourchange` is the name of the animation
+
+```
+animation: colourchange 5s infinite alternate;
+animation: <animation-name> <animation-duration> <animation-timing-function> <animation-delay> <animation-iteration-count> <animation-direction> <animation-fill-mode> <animation-play-state>;
+```
+
+- CSS `@` is at-rule followed by a keyword that dictates the behaviour of the rule. These rules can serve various purposes such as importing other CSS file.
+    - `@import` to import an external stylesheet into thecurrent stylesheet.
+    - `@media` to apply styles based on certain condition, like screen size or device orientation.
+    - `@keyframes` to apply rule specifies the intermediate stages of an animation.
+    - `@font-face` to allow custom font to be used in CSS by defining the font source.
+    - `@supports` to check if the browser supports a certain CSS feature or property before applying a block of styles.
+    - `@charset` to declarethe character encoding of the CSS file.
+
+
+- JS `.innerHTML` property in JS is used to get or set the HTML content of an element.
+- JS `document.getElementByTagName("body")[0]` the `[0]`meaning it will acess the first element within the body element.
+
+```
+document.getElementById("Hex-code").innerHTML = hexcode;
+document.getElementByTagName("body")[0].style.background = '#' + hexcode
+
+or this
+
+document.getElementsByClassName("hex-colours")[0].style.background = "#" + hexcode;/
+```
