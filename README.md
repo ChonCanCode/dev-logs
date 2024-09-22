@@ -11,7 +11,7 @@ A journal entry for my coding journey.
 **2024.07.02**
 - Time spent: 84 mins
 - HTML basic structure completed, ready to move on to CSS
-- Learned: Common Semantic HTML Tags, Word Tags, Elements (<input/>, <a>, <span>)
+- Learned: `Common Semantic HTML Tags, Word Tags, Elements <input/>, <a>, <span>.`
 
 **2024.07.03**
 - Time spent: 40 mins
@@ -143,14 +143,15 @@ A journal entry for my coding journey.
 - Begin, beginner-js-project-01-colours.
 - Started a very simple tutorial of using JS in website.
 - JS "`document.`" it refers to the *Document Object Model (DOM)*, which represents the structure of an HTML or XML document. The `document` object is hte entry point that enables you to interact with and manipulate the content, structure, and style of the HTML document via JS. 
-- JS `getElementsByTagName()` is a DOM Method. It is a HTML element retrieval method, as it used to find and retrieve all HTML elements that matach a specific tag name(e.g., <div>, <p>,<span> etc).
+- JS `getElementsByTagName()` is a DOM Method. It is a HTML element retrieval method, as it used to find and retrieve all HTML elements that matach a specific tag name(e.g., `<div>, <p>,<span> `etc).
 - In JS a method is simply a funcion that is associated with an object (in this case the `document` object).
 - DOM (Document Object Model) - a programming interface (or structure) that represents the HTML or XML document loaded in a web browswer. It allows programs like JS to interact with, manipulate and update the content.
 - DOM - Real-Time Representation, when open a webpage, the browswer parses the HTML and builds the DOM. JS can then access and manipulate this DOM to modify the content without reloading the page.
-- DOM - Tree-like structure. The root of the tree is the <html> element. Other nodes represents the head, body, divs p and img and so on.
-- DOM - Nodes. Everything in the DOM is treated as node. Like Element nodes <div>, <p>, <h1>. Attribute nodes, id, class, src. Text nodes, the actual text content inside the element.
+- DOM - Tree-like structure. The root of the tree is the `<html>` element. Other nodes represents the head, body, divs p and img and so on.
+- DOM - Nodes. Everything in the DOM is treated as node. Like Element nodes `<div>, <p>, <h1>`. Attribute nodes, id, class, src. Text nodes, the actual text content inside the element.
 
 The DOM representation 
+```
 Document
  └── <html>
       ├── <head>
@@ -158,6 +159,7 @@ Document
       └── <body>
            ├── <h1>
            └── <p>
+```
 
 - `index > colours.length-1` the `.length-1` prevent the index goes beyond 5 if it happens purple will appear twice as it has to perfrom the loop again to reset it to red which is 0. A loop base. If the number is 4 the purple will only appear once.
 
@@ -252,3 +254,42 @@ function generate(){
     document.getElementById("author").innerHTML = author;
 }
 ```
+
+**2024.09.22**
+- Begin, beginner-js-project-pass-the-message
+- HTML `<label>` element is define a label for an iput element to provide a decscription of the input field it is associated with.
+- HTML `for=""` attribute inside the label element tag specifices which input element the label is associated with. The value of the for="" whould match the `id=""` of the corresponding input field.
+```
+                <label for="messag-input">Enter a message</label>
+```
+- HTML `<br>` stands for break elementis used to insert a line break in the text. 
+
+
+- Method 1 `input=""` doesn't work, as it is a local variable that stors the value of the input field(from document.getElementById("message-input").value). However if i change to `document.getElementById("message-input").value = "";` this will work because I directly modify the value ofthe actual input field(the DOM element).
+
+`const input = document.getElementById("message-input").value;` This line fetches the current value of the input field and stores it in the variable input. However, this is ***only a copy of the value*** at the moment the line is executed. It does not reference the input field itself; it just stores the current value as a string.
+
+```
+//Method 1
+
+function getMessage() {
+    
+    const input = document.getElementById("message-input").value
+
+    document.getElementById("message-output").innerHTML = input;
+
+    input="";
+}
+
+
+//Method 2
+
+const messageInput = document.getElementById("message-input")
+
+function getMessage() {
+    document.getElementById("message-output").innerHTML = messageInput.value;
+
+    messageInput.value="";
+}
+```
+- beginner-js-project-pass-the-message, completed.
