@@ -293,3 +293,12 @@ function getMessage() {
 }
 ```
 - beginner-js-project-pass-the-message, completed.
+
+- Need to understand how the following work
+```
+messageInput.addEventListener("keydown", function(event) {
+    if(event.key == "Enter")
+    getMessage();
+
+})
+```
