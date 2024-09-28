@@ -302,3 +302,18 @@ messageInput.addEventListener("keydown", function(event) {
 
 })
 ```
+
+
+**2024.09.28**
+- beginner-js-project-05-counter
+- straight forward JS
+```
+let count = 0;
+
+function changeCount(num) {
+    count += num;
+
+    document.getElementById("count").innerHTML = count
+}
+
+```
