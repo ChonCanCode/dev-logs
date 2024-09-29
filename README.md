@@ -317,3 +317,8 @@ function changeCount(num) {
 }
 
 ```
+
+**2024.09.28**
+- beginner-js-project-06-image-carousel
+- Made a stupid mistake in HTML "script.css" instead of "script.js"
+
