@@ -321,4 +321,43 @@ function changeCount(num) {
 **2024.09.28**
 - beginner-js-project-06-image-carousel
 - Made a stupid mistake in HTML "script.css" instead of "script.js"
+- Learning a slightly more complex JS code
+```
+let index = 0 
+^ used to keep track of which image on display
 
+show_image(index);
+^calling the function and passes 0 (the initial value) and execute.
+?does it excute immediately when the website first open? that means that entire page of code will be run when it first open?
+
+function show_image(i) {
+    index += i;
+    
+    let images = document.getElementsByClassName("image")
+    ^ create an array of for class="image" 
+
+    let dots = document.getElementsByClassName("dot")
+    ^ create an array of for class="dot "
+
+    for(i=0; i < images.length; i++)
+    images[i].style.display = "none";
+
+    for(i=0; i < dots.length; i++)
+    dots[i].className = dots[i].className.replace(" active","")
+
+    if(index > images.length - 1)
+    index = 0;
+
+    if(index < 0)
+    index = images.length - 1;
+
+    images[index].style.display = "block";
+    dots[index].className += " active";
+
+
+}
+
+```
+
+**2024.10.02**
+- beginner-js-project-08-calculator
